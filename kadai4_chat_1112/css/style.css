@@ -1,0 +1,23 @@
+.name{
+    font-size: 20px;
+}
+
+.msg:nth-child(odd) {
+    width: 40%;
+    background: gainsboro;
+    margin-left: auto;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.msg:nth-child(even) {
+    background: blue;
+    width: 40%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.honnbunn{
+    align-items: center;
+}
